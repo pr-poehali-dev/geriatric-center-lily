@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Cormorant:wght@400;500;600;700&family=Open+Sans:wght@300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&family=Crimson+Pro:wght@300;400;500;600&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -6,33 +6,33 @@
 
 @layer base {
   :root {
-    --background: 35 25% 96%;
-    --foreground: 160 35% 20%;
+    --background: 40 22% 97%;
+    --foreground: 160 40% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 160 35% 20%;
+    --card-foreground: 160 40% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 160 35% 20%;
+    --popover-foreground: 160 40% 15%;
 
-    --primary: 160 35% 28%;
-    --primary-foreground: 35 25% 96%;
+    --primary: 160 45% 22%;
+    --primary-foreground: 40 22% 97%;
 
-    --secondary: 35 25% 92%;
-    --secondary-foreground: 160 35% 28%;
+    --secondary: 40 20% 95%;
+    --secondary-foreground: 160 45% 22%;
 
-    --muted: 35 20% 90%;
-    --muted-foreground: 160 15% 45%;
+    --muted: 40 15% 92%;
+    --muted-foreground: 160 20% 40%;
 
-    --accent: 45 85% 55%;
-    --accent-foreground: 160 35% 20%;
+    --accent: 43 95% 52%;
+    --accent-foreground: 160 40% 15%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 35 20% 88%;
-    --input: 35 20% 88%;
-    --ring: 160 35% 28%;
+    --border: 40 15% 88%;
+    --input: 40 15% 90%;
+    --ring: 43 95% 52%;
 
     --radius: 0.5rem;
 
@@ -99,7 +99,8 @@
 
   body {
     @apply bg-background text-foreground;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Crimson Pro", serif;
+    font-weight: 400;
   }
 
   h1,
@@ -108,7 +109,8 @@
   h4,
   h5,
   h6 {
-    font-family: "Cormorant", serif;
-    font-weight: 600;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 500;
+    letter-spacing: 0.02em;
   }
 }
