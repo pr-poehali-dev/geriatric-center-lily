@@ -40,6 +40,13 @@ const Index = () => {
 
       <section className="relative py-32 md:py-40 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-secondary/30 to-background"></div>
+        <div 
+          className="absolute inset-0 opacity-20 bg-cover bg-center bg-no-repeat"
+          style={{ 
+            backgroundImage: 'url(https://cdn.poehali.dev/projects/f35229b3-d31a-45f1-b578-cbca25243c7d/files/2fe51be0-cd68-4bc9-8b19-ed9dec80cb46.jpg)',
+            mixBlendMode: 'multiply'
+          }}
+        ></div>
         <div className="container mx-auto px-6 relative z-10">
           <div className="max-w-4xl mx-auto text-center animate-fade-in">
             <Badge className="mb-8 bg-accent/10 text-accent border-accent/20 px-6 py-2 text-base font-light">
