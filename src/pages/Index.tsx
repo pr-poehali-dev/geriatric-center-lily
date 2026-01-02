@@ -13,7 +13,11 @@ const Index = () => {
         <nav className="container mx-auto px-6 py-5">
           <div className="flex items-center justify-between">
             <a href="/" className="flex items-center gap-3">
-              <Icon name="Flower2" size={28} className="text-primary" />
+              <img 
+                src="https://cdn.poehali.dev/files/ЛОГО.png" 
+                alt="Логотип Ландыш" 
+                className="h-12 w-auto"
+              />
               <span className="text-3xl font-serif font-medium text-primary tracking-wide">Ландыш</span>
             </a>
             <div className="hidden md:flex items-center gap-8">
@@ -395,7 +399,11 @@ const Index = () => {
           <div className="grid md:grid-cols-4 gap-12 mb-12">
             <div className="md:col-span-2">
               <div className="flex items-center gap-3 mb-6">
-                <Icon name="Flower2" size={32} className="text-accent" />
+                <img 
+                  src="https://cdn.poehali.dev/files/ЛОГО.png" 
+                  alt="Логотип Ландыш" 
+                  className="h-14 w-auto brightness-0 invert opacity-80"
+                />
                 <span className="text-3xl font-serif font-medium tracking-wide">Ландыш</span>
               </div>
               <p className="text-primary-foreground/80 leading-relaxed font-light max-w-md">
