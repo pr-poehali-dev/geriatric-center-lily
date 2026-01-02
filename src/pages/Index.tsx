@@ -110,8 +110,15 @@ const Index = () => {
 
       <Separator className="my-0" />
 
-      <section id="about" className="py-32">
-        <div className="container mx-auto px-6">
+      <section id="about" className="py-32 relative overflow-hidden">
+        <div 
+          className="absolute top-0 right-0 w-1/3 h-full opacity-10 bg-cover bg-center"
+          style={{ 
+            backgroundImage: 'url(https://cdn.poehali.dev/projects/f35229b3-d31a-45f1-b578-cbca25243c7d/files/eae0aec9-421e-4200-bd3a-141e977c6dd0.jpg)',
+            mixBlendMode: 'multiply'
+          }}
+        ></div>
+        <div className="container mx-auto px-6 relative z-10">
           <div className="grid md:grid-cols-2 gap-16 items-center">
             <div className="animate-fade-in">
               <Badge className="mb-6 bg-accent/10 text-accent border-accent/20 font-light">О нас</Badge>
@@ -143,8 +150,15 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="services" className="py-32 bg-white">
-        <div className="container mx-auto px-6">
+      <section id="services" className="py-32 bg-white relative overflow-hidden">
+        <div 
+          className="absolute bottom-0 left-0 w-1/4 h-2/3 opacity-10 bg-cover bg-center"
+          style={{ 
+            backgroundImage: 'url(https://cdn.poehali.dev/projects/f35229b3-d31a-45f1-b578-cbca25243c7d/files/51189975-e8e8-466d-a2b9-3ef639dc12fd.jpg)',
+            mixBlendMode: 'multiply'
+          }}
+        ></div>
+        <div className="container mx-auto px-6 relative z-10">
           <div className="text-center mb-20 animate-fade-in">
             <Badge className="mb-6 bg-accent/10 text-accent border-accent/20 font-light">Наши услуги</Badge>
             <h2 className="text-5xl md:text-6xl font-serif font-medium text-primary mb-6 leading-tight">
@@ -264,8 +278,15 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="py-32 bg-primary text-primary-foreground">
-        <div className="container mx-auto px-6">
+      <section className="py-32 bg-primary text-primary-foreground relative overflow-hidden">
+        <div 
+          className="absolute inset-0 opacity-10 bg-cover bg-center"
+          style={{ 
+            backgroundImage: 'url(https://cdn.poehali.dev/projects/f35229b3-d31a-45f1-b578-cbca25243c7d/files/2fe51be0-cd68-4bc9-8b19-ed9dec80cb46.jpg)',
+            mixBlendMode: 'overlay'
+          }}
+        ></div>
+        <div className="container mx-auto px-6 relative z-10">
           <div className="max-w-5xl mx-auto text-center">
             <h2 className="text-5xl md:text-6xl font-serif font-medium mb-8 leading-tight">
               Философия нашей работы
