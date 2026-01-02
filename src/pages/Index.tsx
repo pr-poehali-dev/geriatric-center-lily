@@ -370,8 +370,28 @@ const Index = () => {
         </div>
       </section>
 
-      <footer className="bg-primary text-primary-foreground py-16">
-        <div className="container mx-auto px-6">
+      <footer className="bg-primary text-primary-foreground py-16 relative overflow-hidden">
+        <div 
+          className="absolute top-0 left-0 w-64 h-64 opacity-10"
+          style={{ 
+            backgroundImage: 'url(https://cdn.poehali.dev/projects/f35229b3-d31a-45f1-b578-cbca25243c7d/files/2fe51be0-cd68-4bc9-8b19-ed9dec80cb46.jpg)',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            mixBlendMode: 'overlay'
+          }}
+        ></div>
+        <div 
+          className="absolute bottom-0 right-0 w-80 h-80 opacity-10"
+          style={{ 
+            backgroundImage: 'url(https://cdn.poehali.dev/projects/f35229b3-d31a-45f1-b578-cbca25243c7d/files/2fe51be0-cd68-4bc9-8b19-ed9dec80cb46.jpg)',
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            mixBlendMode: 'overlay',
+            transform: 'scaleX(-1)'
+          }}
+        ></div>
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-96 h-2 bg-accent/5 blur-3xl"></div>
+        <div className="container mx-auto px-6 relative z-10">
           <div className="grid md:grid-cols-4 gap-12 mb-12">
             <div className="md:col-span-2">
               <div className="flex items-center gap-3 mb-6">
@@ -417,8 +437,21 @@ const Index = () => {
             </div>
           </div>
           <Separator className="my-8 bg-primary-foreground/20" />
-          <div className="text-center text-primary-foreground/60 font-light text-sm tracking-wide">
-            © 2024 Гериатрический центр «Ландыш». Все права защищены.
+          <div className="flex flex-col md:flex-row items-center justify-between gap-4">
+            <div className="text-primary-foreground/60 font-light text-sm tracking-wide">
+              © 2024 Гериатрический центр «Ландыш». Все права защищены.
+            </div>
+            <div className="flex items-center gap-6">
+              <a href="#" className="text-primary-foreground/60 hover:text-primary-foreground transition-colors">
+                <Icon name="Instagram" size={20} />
+              </a>
+              <a href="#" className="text-primary-foreground/60 hover:text-primary-foreground transition-colors">
+                <Icon name="Facebook" size={20} />
+              </a>
+              <a href="#" className="text-primary-foreground/60 hover:text-primary-foreground transition-colors">
+                <Icon name="Mail" size={20} />
+              </a>
+            </div>
           </div>
         </div>
       </footer>
