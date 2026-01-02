@@ -72,6 +72,23 @@ const Index = () => {
 
       <section className="py-24 bg-white">
         <div className="container mx-auto px-6">
+          <div className="mb-20 animate-fade-in">
+            <div className="relative rounded-3xl overflow-hidden shadow-2xl max-w-6xl mx-auto">
+              <img 
+                src="https://cdn.poehali.dev/files/IMG_5216.JPG" 
+                alt="Гериатрический центр Ландыш - классическая архитектура у моря"
+                className="w-full h-[500px] md:h-[600px] object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent"></div>
+              <div className="absolute bottom-0 left-0 right-0 p-8 md:p-12 text-white">
+                <h3 className="text-3xl md:text-4xl font-serif font-medium mb-3">Элегантность и спокойствие</h3>
+                <p className="text-lg md:text-xl font-light text-white/90 max-w-3xl">
+                  Архитектура в классическом стиле на берегу моря — идеальное место для комфортной жизни старшего поколения
+                </p>
+              </div>
+            </div>
+          </div>
+
           <div className="grid md:grid-cols-4 gap-8">
             {[
               { icon: 'Award', title: '37 лет', subtitle: 'безупречной работы' },
