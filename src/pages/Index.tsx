@@ -39,25 +39,23 @@ const Index = () => {
       </header>
 
       <section className="relative py-32 md:py-40 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-accent/5 via-secondary/20 to-primary/10"></div>
         <div 
-          className="absolute inset-0 opacity-15 bg-cover bg-center bg-no-repeat"
+          className="absolute inset-0 bg-cover bg-center"
           style={{ 
-            backgroundImage: 'url(https://cdn.poehali.dev/projects/f35229b3-d31a-45f1-b578-cbca25243c7d/files/2fe51be0-cd68-4bc9-8b19-ed9dec80cb46.jpg)',
-            mixBlendMode: 'soft-light'
+            backgroundImage: 'url(https://cdn.poehali.dev/files/IMG_5216.JPG)'
           }}
         ></div>
-        <div className="absolute top-10 right-10 w-96 h-96 bg-accent/10 rounded-full blur-3xl"></div>
-        <div className="absolute bottom-10 left-10 w-80 h-80 bg-primary/10 rounded-full blur-3xl"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/30 to-black/50"></div>
+        <div className="absolute inset-0 bg-primary/20 mix-blend-multiply"></div>
         <div className="container mx-auto px-6 relative z-10">
           <div className="max-w-4xl mx-auto text-center animate-fade-in">
-            <Badge className="mb-8 bg-accent/10 text-accent border-accent/20 px-6 py-2 text-base font-light">
+            <Badge className="mb-8 bg-white/20 text-white border-white/30 px-6 py-2 text-base font-light backdrop-blur-sm">
               С 1987 года
             </Badge>
-            <h1 className="text-6xl md:text-8xl font-serif font-medium text-primary mb-8 leading-tight tracking-tight">
+            <h1 className="text-6xl md:text-8xl font-serif font-medium text-white mb-8 leading-tight tracking-tight drop-shadow-2xl">
               Достоинство<br />каждого дня
             </h1>
-            <p className="text-xl md:text-2xl text-muted-foreground mb-12 max-w-3xl mx-auto font-light leading-relaxed">
+            <p className="text-xl md:text-2xl text-white/90 mb-12 max-w-3xl mx-auto font-light leading-relaxed drop-shadow-lg">
               Гериатрический центр премиум-класса, где забота о старшем поколении сочетается с безупречным качеством и уважением к личности
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
