@@ -39,14 +39,16 @@ const Index = () => {
       </header>
 
       <section className="relative py-32 md:py-40 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-b from-secondary/30 to-background"></div>
+        <div className="absolute inset-0 bg-gradient-to-br from-accent/5 via-secondary/20 to-primary/10"></div>
         <div 
-          className="absolute inset-0 opacity-20 bg-cover bg-center bg-no-repeat"
+          className="absolute inset-0 opacity-15 bg-cover bg-center bg-no-repeat"
           style={{ 
             backgroundImage: 'url(https://cdn.poehali.dev/projects/f35229b3-d31a-45f1-b578-cbca25243c7d/files/2fe51be0-cd68-4bc9-8b19-ed9dec80cb46.jpg)',
-            mixBlendMode: 'multiply'
+            mixBlendMode: 'soft-light'
           }}
         ></div>
+        <div className="absolute top-10 right-10 w-96 h-96 bg-accent/10 rounded-full blur-3xl"></div>
+        <div className="absolute bottom-10 left-10 w-80 h-80 bg-primary/10 rounded-full blur-3xl"></div>
         <div className="container mx-auto px-6 relative z-10">
           <div className="max-w-4xl mx-auto text-center animate-fade-in">
             <Badge className="mb-8 bg-accent/10 text-accent border-accent/20 px-6 py-2 text-base font-light">
