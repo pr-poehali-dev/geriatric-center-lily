@@ -112,12 +112,15 @@ const Index = () => {
               </Button>
             </div>
             <div className="relative animate-scale-in">
-              <div className="aspect-[4/5] rounded-lg bg-secondary/30 overflow-hidden">
-                <div className="w-full h-full flex items-center justify-center text-muted-foreground/30">
-                  <Icon name="Image" size={64} />
-                </div>
+              <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl">
+                <img 
+                  src="https://cdn.poehali.dev/files/2025-12-29 23.04.19.jpg" 
+                  alt="Счастливая семья у гериатрического центра Ландыш"
+                  className="w-full h-full object-cover"
+                />
               </div>
-              <div className="absolute -bottom-8 -left-8 w-48 h-48 rounded-lg bg-accent/10 -z-10"></div>
+              <div className="absolute -bottom-8 -right-8 w-64 h-64 rounded-2xl bg-accent/10 -z-10"></div>
+              <div className="absolute -top-8 -left-8 w-48 h-48 rounded-full bg-primary/5 -z-10"></div>
             </div>
           </div>
         </div>
