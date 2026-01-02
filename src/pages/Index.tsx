@@ -196,6 +196,57 @@ const Index = () => {
         </div>
       </section>
 
+      <section className="py-32 bg-secondary/20">
+        <div className="container mx-auto px-6">
+          <div className="text-center mb-20 animate-fade-in">
+            <Badge className="mb-6 bg-accent/10 text-accent border-accent/20 font-light">Территория и интерьеры</Badge>
+            <h2 className="text-5xl md:text-6xl font-serif font-medium text-primary mb-6 leading-tight">
+              Пространство для жизни
+            </h2>
+            <p className="text-xl text-muted-foreground max-w-3xl mx-auto font-light">
+              Архитектура классического стиля, ухоженная территория и комфортные номера премиум-класса
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+            <div className="relative group overflow-hidden rounded-2xl shadow-xl animate-fade-in hover:shadow-2xl transition-all">
+              <img 
+                src="https://cdn.poehali.dev/files/WhatsApp Image 2025-10-20 at 11.12.48 (2).jpeg" 
+                alt="Здание гериатрического центра Ландыш с фонтаном"
+                className="w-full h-[500px] object-cover group-hover:scale-105 transition-transform duration-500"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <div className="absolute bottom-0 left-0 right-0 p-8 text-white">
+                  <h3 className="text-2xl font-serif font-medium mb-2">Фасад и территория</h3>
+                  <p className="font-light text-white/90">Классическая архитектура и ухоженный парк с фонтаном</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="relative group overflow-hidden rounded-2xl shadow-xl animate-fade-in hover:shadow-2xl transition-all" style={{ animationDelay: '100ms' }}>
+              <img 
+                src="https://cdn.poehali.dev/files/IMG_2331.JPG" 
+                alt="Комфортный номер с медицинской кроватью"
+                className="w-full h-[500px] object-cover group-hover:scale-105 transition-transform duration-500"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                <div className="absolute bottom-0 left-0 right-0 p-8 text-white">
+                  <h3 className="text-2xl font-serif font-medium mb-2">Номера категории люкс</h3>
+                  <p className="font-light text-white/90">Функциональная мебель и медицинское оборудование</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="text-center mt-16">
+            <Button size="lg" variant="outline">
+              Посмотреть все фото
+              <Icon name="ArrowRight" size={18} className="ml-2" />
+            </Button>
+          </div>
+        </div>
+      </section>
+
       <section className="py-32 bg-primary text-primary-foreground">
         <div className="container mx-auto px-6">
           <div className="max-w-5xl mx-auto text-center">
